@@ -1,39 +1,22 @@
 @import url(https://css-club.web.app/css/fixed_cover.min.css);
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
-
 @import url(https://css-club.web.app/css/rate_module.min.css);
 
 @import url(https://css-club.web.app/css/favorites_grid.min.css);
 
-@import url(https://css-club.web.app/css/u-carousel.css);
-
-@import url(https://css-club.web.app/css/custom_tabs.css);
-
 @import url(https://css-club.web.app/css/profile-content-layout-v1.css);
 
-@import url(https://css-club.web.app/css/custom_posters.min.css);
-/* Тёмное оформление кода в настройках внешнего вида сайта */
-@import url(https://css-club.web.app/css/CodeMirror_dark.css);
-
 @import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/q08_alter_sitemenu.css");
-
-@import url(https://shiki-theme.web.app/test/use-tabs.css);
 
 @import url(https://raw.githubusercontent.com/Fujitawa/Lab/main/icons/css/fuji-embedded.css);
 
 @import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/q03_history_bookmarks.css");
 
-@import url(https://newlab.ga/icons/css/borr-embedded.css); /*подключение иконок */
-
-@import url(https://newlab.ga/shi/icons.css);
 /* Альтернативный макет для достижений в профиле */
 @import url(https://css-club.web.app/css/profile-achievements-layout-v1.css);
 #profiles_show .achievements > .cc-2 > .c-column > [class*="cc-"] {
   --steps: 0 !important;
 }
-
-@media (min-width: 1264px) {
   html { overflow: visible; }
   body { overflow: overlay; }
   body::-webkit-scrollbar { width: 7.9px; }
@@ -44,8 +27,18 @@
  }
 }
 
+:root {
+  --theme-background-color: #687980 ;
+}
+
+body,
+.l-top_menu-v2,
+.l-top_menu-v2 .menu-dropdown .submenu {
+  background-color: var(--theme-background-color) !important;
+}
+
 body {
-    background-color: #687980
+    background-color: #687980 !important;
 }
 html[data-color-mode=light] {
   --link-hover-color: #e58c25;
@@ -490,7 +483,6 @@ order: -1;
 /*верхняя полоса(прозрачная меню)*/
 .l-top_menu-v2 .menu-dropdown.main .submenu {
 width: 135%;
-background-color: rgba(0,0,0,0);
 }
 
 /*верхняя полоса(прозрная кнопка профиль)*/
@@ -645,7 +637,6 @@ transition:1s;
 /* Icons
 --------------------------------------------------------------------------- */
 @import url(https://raw.githubusercontent.com/Fujitawa/Lab/main/icons/css/fuji-embedded.css);
-@media all {
   .l-top_menu-v2 .icon-profile:before,
   .l-top_menu-v2 .icon-anime:before,
   .l-top_menu-v2 .icon-manga:before,
@@ -1030,12 +1021,6 @@ border-radius:10px;
    background: rgba(0,0,0,0);
 }
 .l-top_menu-v2 .menu-logo {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 279px;
 }
 
@@ -1060,3 +1045,4 @@ border-radius:10px;
     width: 67px;
     border-radius: 10px;
 }
+
