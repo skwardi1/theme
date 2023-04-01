@@ -6,11 +6,8 @@
 
 @import url(https://css-club.web.app/css/profile-content-layout-v1.css);
 
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/q08_alter_sitemenu.css");
-
 @import url(https://raw.githubusercontent.com/Fujitawa/Lab/main/icons/css/fuji-embedded.css);
 
-@import url("https://raw.githubusercontent.com/ed-main/ed-main.github.io/master/cssfiles/q03_history_bookmarks.css");
 
 /* Альтернативный макет для достижений в профиле */
 @import url(https://css-club.web.app/css/profile-achievements-layout-v1.css);
