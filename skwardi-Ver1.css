@@ -318,8 +318,8 @@ transition:1s;
   	color:#e58c25;
 }
 
-/*второй столб манга*/
-.b-stats_bar.manga .bar .second {
+/*третий столб манга*/
+.b-stats_bar.manga .bar .third {
     border-radius: 0px 10px 10px 0px;
   	background: #f9ab4b;
   	color:#f9ab4b;
